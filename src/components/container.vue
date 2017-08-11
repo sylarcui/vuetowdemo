@@ -1,25 +1,23 @@
 <template>
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-   <content-header></content-header>
 
     <!-- Main content -->
-    <container></container>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
+    <section class="content-s container-fluid">
+
+      <!--------------------------
+        | Your Page Content Here |
+        -------------------------->
+
+    </section>
+
 </template>
 
 <script>
 import ContentHeader from "./content-header.vue";
-import Container from "./container.vue";
 
 export default {
-  components: {
-    Container,
-    ContentHeader},
-  name: 'contentWrapper',
+  components: {ContentHeader},
+  name: 'container',
   data () {
     return {
       msg: 'Welcome to Your Vue.js Appaaa'
